@@ -1,0 +1,13 @@
+C:\Users\Deff\source\repos\SendKeyboard\bin\Debug\SendKeyboard.exe.config
+C:\Users\Deff\source\repos\SendKeyboard\bin\Debug\SendKeyboard.exe
+C:\Users\Deff\source\repos\SendKeyboard\bin\Debug\SendKeyboard.pdb
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.csprojAssemblyReference.cache
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.Form1.resources
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.Properties.Resources.resources
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.csproj.GenerateResource.cache
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.csproj.CoreCompileInputs.cache
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.exe
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.pdb
+C:\Users\Deff\source\repos\SendKeyboard\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Deff\source\repos\SendKeyboard\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Deff\source\repos\SendKeyboard\obj\Debug\SendKeyboard.csproj.CopyComplete
