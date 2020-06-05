@@ -65,6 +65,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.MouseEventKeyBox = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.KeyboardDelayBox = new System.Windows.Forms.CheckBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.EraseActionButton = new System.Windows.Forms.Button();
             this.ActionTable = new System.Windows.Forms.DataGridView();
             this.SaveButton = new System.Windows.Forms.Button();
@@ -72,8 +74,6 @@
             this.saveBox = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.MouseDelayTooltip = new System.Windows.Forms.ToolTip(this.components);
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.KeyboardDelayBox = new System.Windows.Forms.CheckBox();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.EventTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DelayTrackBar)).BeginInit();
@@ -85,9 +85,9 @@
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MouseDelayTrackBar)).BeginInit();
             this.groupBox3.SuspendLayout();
+            this.groupBox8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ActionTable)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.groupBox8.SuspendLayout();
             this.SuspendLayout();
             // 
             // KeyHistory
@@ -321,7 +321,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(14, 13);
             this.label5.TabIndex = 30;
-            this.label5.Text = "X";
+            this.label5.Text = "Y";
             // 
             // label4
             // 
@@ -467,6 +467,27 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Клавиатура";
             // 
+            // KeyboardDelayBox
+            // 
+            this.KeyboardDelayBox.AutoSize = true;
+            this.KeyboardDelayBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.KeyboardDelayBox.Location = new System.Drawing.Point(137, 83);
+            this.KeyboardDelayBox.Name = "KeyboardDelayBox";
+            this.KeyboardDelayBox.Size = new System.Drawing.Size(157, 17);
+            this.KeyboardDelayBox.TabIndex = 34;
+            this.KeyboardDelayBox.Text = "Задержка после действия";
+            this.KeyboardDelayBox.UseVisualStyleBackColor = true;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.label10);
+            this.groupBox8.Controls.Add(this.DelayTrackBar);
+            this.groupBox8.Location = new System.Drawing.Point(3, 106);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(272, 157);
+            this.groupBox8.TabIndex = 27;
+            this.groupBox8.TabStop = false;
+            // 
             // EraseActionButton
             // 
             this.EraseActionButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -532,27 +553,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Меню";
             // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.label10);
-            this.groupBox8.Controls.Add(this.DelayTrackBar);
-            this.groupBox8.Location = new System.Drawing.Point(3, 106);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(272, 157);
-            this.groupBox8.TabIndex = 27;
-            this.groupBox8.TabStop = false;
-            // 
-            // KeyboardDelayBox
-            // 
-            this.KeyboardDelayBox.AutoSize = true;
-            this.KeyboardDelayBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.KeyboardDelayBox.Location = new System.Drawing.Point(137, 83);
-            this.KeyboardDelayBox.Name = "KeyboardDelayBox";
-            this.KeyboardDelayBox.Size = new System.Drawing.Size(157, 17);
-            this.KeyboardDelayBox.TabIndex = 34;
-            this.KeyboardDelayBox.Text = "Задержка после действия";
-            this.KeyboardDelayBox.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -586,10 +586,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.MouseDelayTrackBar)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ActionTable)).EndInit();
-            this.groupBox1.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ActionTable)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

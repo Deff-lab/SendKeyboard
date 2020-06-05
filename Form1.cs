@@ -66,7 +66,7 @@ namespace SendKeyboard
         {
             try
             {
-                return !Directory.EnumerateFiles(path).Any();
+                return !Directory.EnumerateDirectories(path).Any();
             }
             catch (Exception)
             {
